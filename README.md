@@ -2,10 +2,7 @@
 # README is under construction
 [[Paper]](https://www.ecva.net/papers.php),  [[Video]](https://www.youtube.com/watch?v=8KvFwN1_3DY)
 
-## Requirements
-
-
-### 2.Environments
+## 1. Requirements
 1) cuda 9.0, cudnn7.6.5
 
 2) python 3.6.9
