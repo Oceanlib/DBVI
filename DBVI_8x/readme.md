@@ -23,17 +23,7 @@
 
 10) For distributed training with multi-gpus on cluster: slurm 15.08.11
 
-## 2. Training
-
-
-## 3. Testing with Pretrained Models
-
-### For 8x interpolation
-[Models](https://pan.baidu.com/s/1pxRFu29r56nDLgIHqFzHBA) pretrained on GoPro (password:2022)  
-[Models](https://pan.baidu.com/s/1bXUaHN_n1F2YL8N9V5oMqw) pretrained on X4K1000FPS (password:2022)  
-Unzip downloaded models and put them under ./DBVI_8x/output/
-
-## Dataset
+## 2. Preparing Dataset
 To get the training/testing datasets we used, you can download original frames from following links and preprocess using the code in ../mkDataset/forXXX/ by changing each 'Path/to/' accordingly, or directly download part of ready-to-use lmdb files we processed [here](https://pan.baidu.com/s/1meK6lCXrwrBQ3KFgos1aDw?pwd=2022)(password:2022)
 ### For 8x interpolation
 [GoPro](https://drive.google.com/file/d/1rJTmM9_mLCNzBUUhYIGldBYgup279E_f/view), 
@@ -41,7 +31,7 @@ To get the training/testing datasets we used, you can download original frames f
 [Adobe240(official)](http://www.cs.ubc.ca/labs/imager/tr/2017/DeepVideoDeblurring/DeepVideoDeblurring_Dataset_Original_High_FPS_Videos.zip), 
 [Adobe240_lmdb(we used)](https://pan.baidu.com/s/1E5TAUAks_AzWEcmgwuR8oA?pwd=2022)(password:2022)
 
-After processing the frames or downloading the provided lmdb filed, put them in ./datasets. The path should be originized as:
+After processing the frames or downloading the provided lmdb files, put them in ./datasets. The path should be originized as:
 ```
 datasets/
         GoPro/
@@ -54,7 +44,19 @@ datasets/
                              lock.mdb
                              sample.pkl
  ```
-### 4. Citation 
+
+## 3. Training
+
+
+## 4. Testing with Pretrained Models
+
+### For 8x interpolation
+[Models](https://pan.baidu.com/s/1pxRFu29r56nDLgIHqFzHBA) pretrained on GoPro (password:2022)  
+[Models](https://pan.baidu.com/s/1bXUaHN_n1F2YL8N9V5oMqw) pretrained on X4K1000FPS (password:2022)  
+Unzip downloaded models and put them under ./output/
+
+
+## 5. Citation 
 ```
 @InProceedings{Yu_2022_ECCV,
     author    = {Yu, Zhiyang and Zhang, Yu and Xiang, Xujie and Zou, Dongqing and Chen, Xijun and Jimmy S. Ren},
@@ -66,7 +68,7 @@ datasets/
 }
 ```
 
-### 7. Reference code base 
+## 6. Reference code base 
 [[ESRGAN](https://github.com/xinntao/ESRGAN)], 
 [[SoftSplit](https://github.com/sniklaus/softmax-splatting)], 
 [[DeepView](https://github.com/Findeton/deepview)], 
