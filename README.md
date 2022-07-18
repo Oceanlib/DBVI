@@ -32,6 +32,7 @@ To get the training/testing datasets we used, you can download original frames f
 [SNU-FILM](https://myungsub.github.io/CAIN/)
 
 ### 6. Citation 
+'''
 @InProceedings{Yu_2022_ECCV,
     author    = {Yu, Zhiyang and Zhang, Yu and Xiang, Xujie and Zou, Dongqing and Chen, Xijun and Jimmy S. Ren},
     title     = {Deep Bayesian Video Frame Interpolation},
@@ -40,3 +41,4 @@ To get the training/testing datasets we used, you can download original frames f
     year      = {2022},
     pages     = {}
 }
+'''
