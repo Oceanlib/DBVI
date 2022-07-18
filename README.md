@@ -23,8 +23,9 @@
 
 10) For distributed training with multi-gpus on cluster: slurm 15.08.11
 
-## 2. Training
-
+## 2. How to use 
+### [For 8x interpolation](https://github.com/Oceanlib/DBVI/tree/main/DBVI_8x)
+### [For 2x interpolation](https://github.com/Oceanlib/DBVI/tree/main/DBVI_2x)
 
 ## 3. Testing with Pretrained Models
 
