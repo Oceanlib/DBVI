@@ -43,20 +43,14 @@ To get the training/testing datasets we used, you can download original frames f
 
 After processing the frames or downloading the provided lmdb filed, put them in ./datasets. The path should be originized as:
 datasets/
-
         GoPro/
              gopro_test_lmdb/
                              data.mdb
-                             
                              lock.mdb
-                             
                              sample.pkl
-             
              gopro_train_lmdb/
                              data.mdb
-                             
                              lock.mdb
-                             
                              sample.pkl
               
 ### 4. Citation 
