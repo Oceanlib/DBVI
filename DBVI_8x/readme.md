@@ -42,6 +42,7 @@ To get the training/testing datasets we used, you can download original frames f
 [Adobe240_lmdb(we used)](https://pan.baidu.com/s/1E5TAUAks_AzWEcmgwuR8oA?pwd=2022)(password:2022)
 
 After processing the frames or downloading the provided lmdb filed, put them in ./datasets. The path should be originized as:
+```
 datasets/
         GoPro/
              gopro_test_lmdb/
@@ -52,7 +53,7 @@ datasets/
                              data.mdb
                              lock.mdb
                              sample.pkl
-              
+ ```
 ### 4. Citation 
 ```
 @InProceedings{Yu_2022_ECCV,
