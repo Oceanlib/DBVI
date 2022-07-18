@@ -21,14 +21,14 @@
 10) For distributed training with multi-gpus on cluster: slurm 15.08.11
 
 ## 2. Preparing Dataset
-To get the training/testing datasets we used, you can download original frames from following links and preprocess using the code in ../mkDataset/forXXX/ by changing each 'Path/to/' accordingly, or directly download part of ready-to-use lmdb files we processed [here](https://pan.baidu.com/s/1meK6lCXrwrBQ3KFgos1aDw?pwd=2022)(password:2022)
+The training/testing datasets we used can be either downloaded from following links and processed into lmdb files with the codes in ../mkDataset/forXXX/ by changing each 'Path/to/' accordingly, or directly downloaded the ready-to-use lmdb files [here](https://pan.baidu.com/s/1meK6lCXrwrBQ3KFgos1aDw?pwd=2022)(password:2022)
 #### Links:
 [GoPro](https://drive.google.com/file/d/1rJTmM9_mLCNzBUUhYIGldBYgup279E_f/view), 
 [X4K1000FPS](https://github.com/JihyongOh/XVFI#X4K1000FPS), 
 [Adobe240(official)](http://www.cs.ubc.ca/labs/imager/tr/2017/DeepVideoDeblurring/DeepVideoDeblurring_Dataset_Original_High_FPS_Videos.zip), 
-[Adobe240_lmdb(we used)](https://pan.baidu.com/s/1E5TAUAks_AzWEcmgwuR8oA?pwd=2022)(password:2022)
+[Adobe240_lmdb(selected and used in paper)](https://pan.baidu.com/s/1E5TAUAks_AzWEcmgwuR8oA?pwd=2022)(password:2022)
 
-After processing the frames or downloading the provided lmdb files, put them in ./datasets. The path should be originized as:
+The processed files should be put in ./datasets and originized as:
 ```
 datasets/
         GoPro/
