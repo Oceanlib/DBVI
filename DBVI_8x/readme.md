@@ -47,28 +47,21 @@ datasets/
 
 ## 4. Testing with Pretrained Models
 
-### For 8x interpolation
 [Models](https://pan.baidu.com/s/1pxRFu29r56nDLgIHqFzHBA) pretrained on GoPro (password:2022)  
 [Models](https://pan.baidu.com/s/1bXUaHN_n1F2YL8N9V5oMqw) pretrained on X4K1000FPS (password:2022)  
 Unzip downloaded models and put them under ./output/
 
+### Testing with single gpu:
+(1) Modify the name of test set, dir of checkpoints and the name of pretrained weights in configs/configTest.py accordingly(line50~54).
 
-## 5. Citation 
-```
-@InProceedings{Yu_2022_ECCV,
-    author    = {Yu, Zhiyang and Zhang, Yu and Xiang, Xujie and Zou, Dongqing and Chen, Xijun and Jimmy S. Ren},
-    title     = {Deep Bayesian Video Frame Interpolation},
-    booktitle = {European Conference on Computer Vision (ECCV)},
-    month     = {},
-    year      = {2022},
-    pages     = {}
-}
-```
+(2) Open a terminal and run ifconfig to get your ip address: XXX.XXX.XXX.XXX
 
-## 6. Reference code base 
-[[ESRGAN](https://github.com/xinntao/ESRGAN)], 
-[[SoftSplit](https://github.com/sniklaus/softmax-splatting)], 
-[[DeepView](https://github.com/Findeton/deepview)], 
-[[FLAVR](https://github.com/tarun005/FLAVR)], 
-[[superSlomo](https://github.com/avinashpaliwal/Super-SloMo)], 
-[[QVI](https://sites.google.com/view/xiangyuxu/qvi_nips19)]
+(3) python test.py --initNode=XXX.XXX.XXX.XXX
+### Testing with muli-gpus(16) on cluser managed by slurm:
+(1) Set the name of test set, dir of checkpoints and the name of pretrained weights in configs/configTest.py accordingly(line50~54).
+
+(2) Set the name of part and nodes in cluser, number and index of gpus/cpus per-node and so on, accordingly in runTest.py(line3~14).
+The example in runTest.py is running on one part named Pixel, two nodes named 'SH-IDC1-10-5-39-55' and 'SH-IDC1-10-5-31-38', and alloced 5 gpus per-node.
+
+(3) python runTest.py
+
