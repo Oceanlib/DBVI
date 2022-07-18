@@ -16,7 +16,7 @@ from importlib import import_module
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--config', type=str, required=False, default='configTest', )
-parser.add_argument('--initNode', type=str, required=False, default='10.155.134.79', help='Node for init')
+parser.add_argument('--initNode', type=str, required=True, default='10.155.134.79', help='Node for init')
 parser.add_argument('--gpuList', type=str, required=False, default='{"PC":"0"}', help='gpuList for init')
 parser.add_argument('--reuseGPU', type=int, required=False, default=0, help='reuseGPU or not')
 parser.add_argument('--expName', type=str, required=False, default='DBVI', help='reuseGPU or not')

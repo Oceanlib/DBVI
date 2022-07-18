@@ -337,10 +337,3 @@ class StyleBlock(nn.Module):
 
         out = (self.lrConv(x) + shotCut) / 2.0
         return out
-
-
-if __name__ == '__main__':
-    dummyIn = torch.randn([1, 64, 128, 128]).cuda()
-    net = RRRB(nc=64).cuda()
-    output = net(dummyIn)
-    pass

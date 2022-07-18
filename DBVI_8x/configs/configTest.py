@@ -50,11 +50,11 @@ class configMain(object):
         self.dataset = 'Adobe'  # GoPro, Adobe, X4K1000FPS
         self.resume = True
 
-        # self.expName = '8x_GoPro' if self.resume else expName
-        # self.preTrained = 'train_on_gopro_Iter0.pth' if self.resume else None
+        self.expName = '8x_GoPro' if self.resume else expName
+        self.preTrained = 'train_on_gopro_Iter0.pth' if self.resume else None
 
-        self.expName = '8x_XVFI' if self.resume else expName
-        self.preTrained = 'train_on_X4K1000FPS_Iter0.pth' if self.resume else None
+        # self.expName = '8x_XVFI' if self.resume else expName
+        # self.preTrained = 'train_on_X4K1000FPS_Iter0.pth' if self.resume else None
 
         self.saveImg = False  # save frames or not
         self.outPath = './images'  # path for saved images

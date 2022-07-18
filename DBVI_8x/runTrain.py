@@ -6,7 +6,7 @@ jobName = '8x_GoPro'
 part = 'Pixel'
 
 
-freeNodes = ['SH-IDC1-10-5-39-55']
+freeNodes = ['SH-IDC1-10-5-39-55', 'SH-IDC1-10-5-31-54']
 gpuDict = "\"{\'SH-IDC1-10-5-39-55\': \'0,1,2,3,4,5,6,7\', \'SH-IDC1-10-5-31-54\': \'0,1,2,3,4,5,6,7\'}\""
 
 
@@ -38,8 +38,7 @@ def runDist():
 
     srunCode = []
     srunCode.append('srun')
-    srunCode.append('--gres=gpu:{}'.format(ntaskPerNode)) if not (reuseGPU and envDistributed) else print(
-        'Reuse GPUS of {}'.format(gpuDict))
+    srunCode.append('--gres=gpu:{}'.format(ntaskPerNode))
     srunCode.append('--job-name={}'.format(jobName))
     srunCode.append('--partition={}'.format(part))
     srunCode.append('--nodelist={}'.format(nodeList)) if freeNodes is not None else print('Get node by slurm')

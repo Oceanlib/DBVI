@@ -160,21 +160,3 @@ class InvConvLU1x1(nn.Module):  # is not recommended
         else:
             logdet = logdet - dlogdet
         return z, logdet
-
-
-if __name__ == '__main__':
-    x = torch.randn([1, 3, 16, 16], requires_grad=True)
-    conv = TransConv1x1(inCh=3)
-    y, _ = conv(x, logdet=0.0, rev=False)
-    y.retain_grad()
-    loss = ((y - 1) ** 2).sum()
-    loss.backward()
-
-    grady = y.grad
-    gradx = x.grad
-
-    gradx2, _ = conv(grady, logdet=0.0, rev=True)
-
-    print((gradx - gradx2).mean())
-
-    pass
