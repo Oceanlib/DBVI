@@ -4,6 +4,28 @@
 
 ## Requirements
 
+
+### 2.Environments
+1) cuda 9.0, cudnn7.6.5
+
+2) python 3.6.9
+
+3) pytorch 1.8.1
+
+4) numpy 1.17.2
+
+5) tqdm
+
+6) gcc 5.4.0
+
+7) cmake 3.16.0
+
+8) opencv_contrib_python
+
+9) Install apex: https://github.com/NVIDIA/apex
+
+10) For distributed training with multi-gpus on cluster: slurm 15.08.11
+
 ## Training
 
 
