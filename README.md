@@ -1,6 +1,13 @@
-# DBVI
+# README is under construction
+# DBVI:Deep Bayesian Video Frame Interpolation
 [[Paper]](https://www.ecva.net/papers.php),  [[Video]](https://www.youtube.com/watch?v=8KvFwN1_3DY)
-## Test with Pretrained Models
+
+## Requirements
+
+## Training
+
+
+## Testing with Pretrained Models
 
 ### For 8x interpolation
 [Models](https://pan.baidu.com/s/1pxRFu29r56nDLgIHqFzHBA) pretrained on GoPro (password:2022)  
@@ -23,3 +30,13 @@ To get the training/testing datasets we used, you can download original frames f
 [ucf101](https://sites.google.com/view/xiangyuxu/qvi_nips19), 
 [DAVIS](https://sites.google.com/view/xiangyuxu/qvi_nips19), 
 [SNU-FILM](https://myungsub.github.io/CAIN/)
+
+### 6. Citation 
+@InProceedings{Yu_2022_ECCV,
+    author    = {Yu, Zhiyang and Zhang, Yu and Xiang, Xujie and Zou, Dongqing and Chen, Xijun and Jimmy S. Ren},
+    title     = {Deep Bayesian Video Frame Interpolation},
+    booktitle = {European Conference on Computer Vision (ECCV)},
+    month     = {},
+    year      = {2022},
+    pages     = {}
+}
