@@ -23,10 +23,10 @@
 
 10) For distributed training with multi-gpus on cluster: slurm 15.08.11
 
-## Training
+## 2. Training
 
 
-## Testing with Pretrained Models
+## 3. Testing with Pretrained Models
 
 ### For 8x interpolation
 [Models](https://pan.baidu.com/s/1pxRFu29r56nDLgIHqFzHBA) pretrained on GoPro (password:2022)  
@@ -50,7 +50,7 @@ To get the training/testing datasets we used, you can download original frames f
 [DAVIS](https://sites.google.com/view/xiangyuxu/qvi_nips19), 
 [SNU-FILM](https://myungsub.github.io/CAIN/)
 
-### 6. Citation 
+### 4. Citation 
 ```
 @InProceedings{Yu_2022_ECCV,
     author    = {Yu, Zhiyang and Zhang, Yu and Xiang, Xujie and Zou, Dongqing and Chen, Xijun and Jimmy S. Ren},
@@ -61,3 +61,11 @@ To get the training/testing datasets we used, you can download original frames f
     pages     = {}
 }
 ```
+
+### 7. Reference code base 
+[[ESRGAN](https://github.com/xinntao/ESRGAN)], 
+[[SoftSplit](https://github.com/sniklaus/softmax-splatting)], 
+[[DeepView](https://github.com/Findeton/deepview)], 
+[[FLAVR](https://github.com/tarun005/FLAVR)], 
+[[superSlomo](https://github.com/avinashpaliwal/Super-SloMo)], 
+[[QVI](https://sites.google.com/view/xiangyuxu/qvi_nips19)]
