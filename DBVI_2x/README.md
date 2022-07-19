@@ -17,9 +17,9 @@ datasets/
                       lock.mdb
                       sample.pkl
              train_lmdb/
-                        data.mdb
-                        lock.mdb
-                        sample.pkl
+                       data.mdb
+                       lock.mdb
+                       sample.pkl
  ```
 
 ## 2. Training
