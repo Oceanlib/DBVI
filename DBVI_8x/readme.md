@@ -55,6 +55,7 @@ datasets/
 (1) Set the name of train set(GoPro/X4K1000FPS), whether resume or not, dir of checkpoints and the name of pretrained weights(only needed if resume is true) in configs/configTest.py(line50~54).
 
 (2) Set the name of part and nodes in cluser, number and index of gpus/cpus per-node and so on in runTrain.py(line3~14).
+
 The example in runTrain.py is running on one part named Pixel, two nodes named 'SH-IDC1-10-5-39-55' and 'SH-IDC1-10-5-31-54', allocated 8 gpus per-node.
 
 (3) python runTrain.py
@@ -76,7 +77,8 @@ Unzip downloaded models and put them under ./output/
 (1) Set the name of test set, dir of checkpoints and the name of pretrained weights in configs/configTest.py(line50~54).
 
 (2) Set the name of part and nodes in cluser, number and index of gpus/cpus per-node and so on in runTest.py(line3~14).
-'The example in runTest.py is running on one part named Pixel, two nodes named 'SH-IDC1-10-5-39-55' and 'SH-IDC1-10-5-31-38', allocated 5 gpus per-node.'
+
+The example in runTest.py is running on one part named Pixel, two nodes named 'SH-IDC1-10-5-39-55' and 'SH-IDC1-10-5-31-38', allocated 5 gpus per-node.
 
 (3) python runTest.py
 
