@@ -27,7 +27,7 @@
 ### [For 8x interpolation](https://github.com/Oceanlib/DBVI/tree/main/DBVI_8x)
 ### [For 2x interpolation](https://github.com/Oceanlib/DBVI/tree/main/DBVI_2x)
 
-### 3. Citation 
+## 3. Citation 
 ```
 @InProceedings{Yu_2022_ECCV,
     author    = {Yu, Zhiyang and Zhang, Yu and Xiang, Xujie and Zou, Dongqing and Chen, Xijun and Jimmy S. Ren},
