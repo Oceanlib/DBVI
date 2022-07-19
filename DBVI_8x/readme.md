@@ -1,27 +1,5 @@
-# Under construction
 # 8x Interpolation
-## 1. Requirements
-1) cuda 9.0, cudnn7.6.5
-
-2) python 3.6.9
-
-3) pytorch 1.8.1
-
-4) numpy 1.17.2
-
-5) tqdm
-
-6) gcc 5.4.0
-
-7) cmake 3.16.0
-
-8) opencv_contrib_python
-
-9) Install apex: https://github.com/NVIDIA/apex
-
-10) For distributed training with multi-gpus on cluster: slurm 15.08.11
-
-## 2. Preparing Dataset
+## 1. Preparing Dataset
 The training/testing datasets we used can be either downloaded from following links and processed into lmdb files with the codes in ../mkDataset/forXXX/ by changing each 'Path/to/' accordingly, or directly downloaded the ready-to-use lmdb files [here](https://pan.baidu.com/s/1meK6lCXrwrBQ3KFgos1aDw?pwd=2022)(password:2022)
 #### Links:
 [GoPro](https://drive.google.com/file/d/1rJTmM9_mLCNzBUUhYIGldBYgup279E_f/view), 
@@ -43,16 +21,16 @@ datasets/
                              sample.pkl
  ```
 
-## 3. Training
+## 2. Training
 ### Training with single gpu:
-(1) Set the name of train set(GoPro/X4K1000FPS), whether resume or not, dir of checkpoints and the name of pretrained weights(only needed if resume is true) in configs/configTest.py(line50~54).
+(1) Set the name of train set(GoPro/X4K1000FPS), whether resume or not, dir of checkpoints and the name of pretrained weights(only needed if resume is true) in configs/configTrain.py(line50~54).
 
 (2) Open a terminal and run ifconfig to get your ip address: XXX.XXX.XXX.XXX
 
 (3) python train.py --initNode=XXX.XXX.XXX.XXX
 
 ### Distributed training with muli-gpus(16GPU,2Nodes) on cluser managed by [slurm](https://slurm.schedmd.com/quickstart_admin.html):
-(1) Set the name of train set(GoPro/X4K1000FPS), whether resume or not, dir of checkpoints and the name of pretrained weights(only needed if resume is true) in configs/configTest.py(line50~54).
+(1) Set the name of train set(GoPro/X4K1000FPS), whether resume or not, dir of checkpoints and the name of pretrained weights(only needed if resume is true) in configs/configTrain.py(line50~54).
 
 (2) Set the name of part and nodes in cluser, number and index of gpus/cpus per-node and so on in runTrain.py(line3~14).
 
