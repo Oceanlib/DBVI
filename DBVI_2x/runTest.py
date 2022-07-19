@@ -3,8 +3,8 @@ import os
 jobName = 'Test'
 part = 'Pixel'
 
-freeNodes = ['SH-IDC1-10-5-39-55','SH-IDC1-10-5-30-221']
-gpuDict = "\"{\'SH-IDC1-10-5-39-55\': \'0,1,2,3,4\', \'SH-IDC1-10-5-30-221\': \'0,1,2,3,4\'}\""
+freeNodes = ['SH-IDC1-10-5-39-55','SH-IDC1-10-5-31-54']
+gpuDict = "\"{\'SH-IDC1-10-5-39-55\': \'0,1,2,3,4\', \'SH-IDC1-10-5-31-54\': \'0,1,2,3,4\'}\""
 
 
 ntaskPerNode = 5  # number of GPUs per nodes
