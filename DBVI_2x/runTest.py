@@ -3,13 +3,13 @@ import os
 jobName = 'Test'
 part = 'Pixel'
 
-freeNodes = ['SH-IDC1-10-5-39-55']
-gpuDict = "\"{\'SH-IDC1-10-5-39-55\': \'0,1,2,3,4,5,6,7\', \'SH-IDC1-10-5-30-221\': \'0,1,2,3,4,5,6,7\'}\""
+freeNodes = ['SH-IDC1-10-5-39-55','SH-IDC1-10-5-30-221']
+gpuDict = "\"{\'SH-IDC1-10-5-39-55\': \'0,1,2,3,4\', \'SH-IDC1-10-5-30-221\': \'0,1,2,3,4\'}\""
 
 
-ntaskPerNode = 8  # number of GPUs per nodes
+ntaskPerNode = 5  # number of GPUs per nodes
 cpus_per_task = 4
-reuseGPU = 0
+reuseGPU = 1
 envDistributed = 1
 
 nodeNum = len(freeNodes)
