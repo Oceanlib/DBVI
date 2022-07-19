@@ -3,9 +3,9 @@ import os
 jobName = '2x_Vimeo'
 part = 'Pixel'
 
-freeNodes = ['SH-IDC1-10-5-39-55','SH-IDC1-10-5-30-221']
+freeNodes = ['SH-IDC1-10-5-39-55','SH-IDC1-10-5-31-54']
 
-gpuDict = "\"{\'SH-IDC1-10-5-39-55\': \'0,1,2,3,4,5,6,7\', \'SH-IDC1-10-5-30-221\': \'0,1,2,3,4,5,6,7\'}\""
+gpuDict = "\"{\'SH-IDC1-10-5-39-55\': \'0,1,2,3,4,5,6,7\', \'SH-IDC1-10-5-31-54\': \'0,1,2,3,4,5,6,7\'}\""
 
 
 ntaskPerNode = 8  # number of GPUs per nodes
