@@ -45,17 +45,17 @@ datasets/
 
 ## 3. Training
 ### Training with single gpu:
-(1) Set the name of train set(GoPro/X4K1000FPS), whether resume or not, dir of checkpoints and the name of pretrained weights(only needed if resume is true) in configs/configTest.py accordingly(line50~54).
+(1) Set the name of train set(GoPro/X4K1000FPS), whether resume or not, dir of checkpoints and the name of pretrained weights(only needed if resume is true) in configs/configTest.py(line50~54).
 
 (2) Open a terminal and run ifconfig to get your ip address: XXX.XXX.XXX.XXX
 
 (3) python train.py --initNode=XXX.XXX.XXX.XXX
 
 ### Distributed training with muli-gpus(16GPU,2Nodes) on cluser managed by [slurm](https://slurm.schedmd.com/quickstart_admin.html):
-(1) Set the name of train set(GoPro/X4K1000FPS), whether resume or not, dir of checkpoints and the name of pretrained weights(only needed if resume is true) in configs/configTest.py accordingly(line50~54).
+(1) Set the name of train set(GoPro/X4K1000FPS), whether resume or not, dir of checkpoints and the name of pretrained weights(only needed if resume is true) in configs/configTest.py(line50~54).
 
-(2) Set the name of part and nodes in cluser, number and index of gpus/cpus per-node and so on, accordingly in runTest.py(line3~14).
-The example in runTrain.py is running on one part named Pixel, two nodes named 'SH-IDC1-10-5-39-55' and 'SH-IDC1-10-5-31-54', and alloced 8 gpus per-node.
+(2) Set the name of part and nodes in cluser, number and index of gpus/cpus per-node and so on in runTrain.py(line3~14).
+The example in runTrain.py is running on one part named Pixel, two nodes named 'SH-IDC1-10-5-39-55' and 'SH-IDC1-10-5-31-54', allocated 8 gpus per-node.
 
 (3) python runTrain.py
 
@@ -66,17 +66,17 @@ The example in runTrain.py is running on one part named Pixel, two nodes named '
 Unzip downloaded models and put them under ./output/
 
 ### Testing with single gpu:
-(1) Set the name of test set, dir of checkpoints and the name of pretrained weights in configs/configTest.py accordingly(line50~54).
+(1) Set the name of test set, dir of checkpoints and the name of pretrained weights in configs/configTest.py(line50~54).
 
 (2) Open a terminal and run ifconfig to get your ip address: XXX.XXX.XXX.XXX
 
 (3) python test.py --initNode=XXX.XXX.XXX.XXX
 
 ### Distributed testing with muli-gpus(10) on cluser managed by [slurm](https://slurm.schedmd.com/quickstart_admin.html):
-(1) Set the name of test set, dir of checkpoints and the name of pretrained weights in configs/configTest.py accordingly(line50~54).
+(1) Set the name of test set, dir of checkpoints and the name of pretrained weights in configs/configTest.py(line50~54).
 
-(2) Set the name of part and nodes in cluser, number and index of gpus/cpus per-node and so on, accordingly in runTest.py(line3~14).
-The example in runTest.py is running on one part named Pixel, two nodes named 'SH-IDC1-10-5-39-55' and 'SH-IDC1-10-5-31-38', and alloced 5 gpus per-node.
+(2) Set the name of part and nodes in cluser, number and index of gpus/cpus per-node and so on in runTest.py(line3~14).
+'The example in runTest.py is running on one part named Pixel, two nodes named 'SH-IDC1-10-5-39-55' and 'SH-IDC1-10-5-31-38', allocated 5 gpus per-node.'
 
 (3) python runTest.py
 
