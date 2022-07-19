@@ -1,5 +1,4 @@
 # Deep Bayesian Video Frame Interpolation
-# README is under construction
 [[Paper]](https://www.ecva.net/papers.php),  [[Video]](https://www.youtube.com/watch?v=8KvFwN1_3DY)
 
 ## 1. Requirements
