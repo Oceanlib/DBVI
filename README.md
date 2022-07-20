@@ -19,7 +19,7 @@
 
 8) opencv_contrib_python
 
-9) Install apex: https://github.com/NVIDIA/apex
+9) [Apex](https://github.com/NVIDIA/apex) 
 
 10) For distributed training with multi-gpus on cluster: slurm 15.08.11
 ```
