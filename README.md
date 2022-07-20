@@ -2,6 +2,7 @@
 [[Paper]](https://www.ecva.net/papers.php),  [[Video]](https://www.youtube.com/watch?v=8KvFwN1_3DY)
 
 ## 1. Requirements
+```
 1) cuda 9.0, cudnn7.6.5
 
 2) python 3.6.9
@@ -21,6 +22,7 @@
 9) Install apex: https://github.com/NVIDIA/apex
 
 10) For distributed training with multi-gpus on cluster: slurm 15.08.11
+```
 
 ## 2. How to use 
 ### [For 8x interpolation](https://github.com/Oceanlib/DBVI/tree/main/DBVI_8x)
