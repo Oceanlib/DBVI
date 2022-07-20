@@ -40,8 +40,10 @@
 
 ### 4. Reference code base 
 [[ESRGAN](https://github.com/xinntao/ESRGAN)], 
+[[CAM-Net](https://github.com/niopeng/CAM-Net/tree/main/code)]
 [[SoftSplit](https://github.com/sniklaus/softmax-splatting)], 
 [[DeepView](https://github.com/Findeton/deepview)], 
 [[FLAVR](https://github.com/tarun005/FLAVR)], 
 [[superSlomo](https://github.com/avinashpaliwal/Super-SloMo)], 
 [[QVI](https://sites.google.com/view/xiangyuxu/qvi_nips19)]
+
