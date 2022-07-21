@@ -1,4 +1,4 @@
-# Deep Bayesian Video Frame Interpolation
+# Official code for DBVI(ECCV2022)
 [[Paper]](https://www.ecva.net/papers.php),  [[Video]](https://www.youtube.com/watch?v=8KvFwN1_3DY)
 
 ## 1. Requirements
