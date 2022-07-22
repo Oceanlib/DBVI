@@ -25,8 +25,8 @@
 
 
 ## 2. How to use 
-### [For 8x interpolation](https://github.com/Oceanlib/DBVI/tree/main/DBVI_8x)
-### [For 2x interpolation](https://github.com/Oceanlib/DBVI/tree/main/DBVI_2x)
+[For 8x interpolation](https://github.com/Oceanlib/DBVI/tree/main/DBVI_8x)
+[For 2x interpolation](https://github.com/Oceanlib/DBVI/tree/main/DBVI_2x)
 
 ## 3. Citation 
 ```
