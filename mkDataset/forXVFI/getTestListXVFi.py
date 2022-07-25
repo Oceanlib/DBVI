@@ -34,7 +34,7 @@ def genSampleTest(srcDir, samplePath, numIter):
 
 if __name__ == '__main__':
     numIter = 7
-    srcDir = '/home/sensetime/data/VideoInterpolation/datasets/X4K1000FPS/test_frames/'
-    samplePath = '/home/sensetime/data/VideoInterpolation/datasets/X4K1000FPS/X4k_lmdb//sample.pkl'
+    srcDir = './datasets/X4K1000FPS/test_frames/'
+    samplePath = './datasets/X4K1000FPS/X4k_lmdb//sample.pkl'
 
     genSampleTest(srcDir=srcDir, samplePath=samplePath, numIter=numIter)
