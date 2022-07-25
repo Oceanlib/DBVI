@@ -76,10 +76,3 @@ class fileBuffer(Queue):
         while self.qsize() >= self.capacity:
             delPath(self.get())
         self.put(x)
-
-
-if __name__ == '__main__':
-    path = '/home/sensetime/project/lib/a'
-    # mkPath(path)
-    filenames = delPath(path)
-    pass
