@@ -11,17 +11,19 @@
 
 4) numpy 1.17.2
 
-5) tqdm
+5) cupy-90
 
-6) gcc 5.4.0
+6) tqdm
 
-7) cmake 3.16.0
+7) gcc 5.4.0
 
-8) opencv_contrib_python
+8) cmake 3.16.0
 
-9) [Apex](https://github.com/NVIDIA/apex) 
+9) opencv_contrib_python
 
-10) For distributed training with multi-gpus on cluster: slurm 15.08.11
+10) [Apex](https://github.com/NVIDIA/apex) 
+
+11) For distributed training with multi-gpus on cluster: slurm 15.08.11
 
 
 ## 2. How to use 
