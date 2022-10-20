@@ -1,5 +1,5 @@
 # Deep Bayesian Video Frame Interpolation (ECCV2022)
-[[Paper&supp](https://www.ecva.net/papers.php)],  [[Demo](https://youtu.be/8KvFwN1_3DY)],  [[Presentation](https://youtu.be/2quo-k0PcQ4)]
+[[Paper&supp](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/1287_ECCV_2022_paper.php)],  [[Demo](https://youtu.be/8KvFwN1_3DY)],  [[Presentation](https://youtu.be/2quo-k0PcQ4)]
 
 ## 1. Requirements
 
