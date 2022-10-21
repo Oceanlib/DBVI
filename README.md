@@ -47,7 +47,7 @@
 [[opencv_torchvision](https://github.com/hityzy1122/opencv_transforms_torchvision)], 
 [[ESRGAN](https://github.com/xinntao/ESRGAN)], 
 [[CAM-Net](https://github.com/niopeng/CAM-Net/tree/main/code)], 
-[[SoftSplit](https://github.com/sniklaus/softmax-splatting)], 
+[[SoftSplat](https://github.com/sniklaus/softmax-splatting)], 
 [[DeepView](https://github.com/Findeton/deepview)], 
 [[FLAVR](https://github.com/tarun005/FLAVR)], 
 [[superSlomo](https://github.com/avinashpaliwal/Super-SloMo)], 
