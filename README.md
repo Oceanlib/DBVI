@@ -33,13 +33,13 @@
 
 ## 3. Citation 
 ```
-@InProceedings{DBVI_ECCV_2022,
-    author    = {Yu, Zhiyang and Zhang, Yu and Xiang, Xujie and Zou, Dongqing and Chen, Xijun and Jimmy S. Ren},
-    title     = {Deep Bayesian Video Frame Interpolation},
-    booktitle = {European Conference on Computer Vision (ECCV)},
-    month     = {},
-    year      = {2022},
-    pages     = {}
+@inproceedings{DBVI2022,
+  title={Deep Bayesian Video Frame Interpolation},
+  author={Yu, Zhiyang and Zhang, Yu and Xiang, Xujie and Zou, Dongqing and Chen, Xijun and Ren, Jimmy S},
+  booktitle={European Conference on Computer Vision},
+  pages={144--160},
+  year={2022},
+  organization={Springer}
 }
 ```
 
