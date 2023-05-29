@@ -1,6 +1,15 @@
 # Deep Bayesian Video Frame Interpolation (ECCV2022)
 [[Paper&supp](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/1287_ECCV_2022_paper.php)],  [[Demo](https://youtu.be/8KvFwN1_3DY)],  [[Presentation](https://youtu.be/2quo-k0PcQ4)]
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-bayesian-video-frame-interpolation/video-frame-interpolation-on-gopro)](https://paperswithcode.com/sota/video-frame-interpolation-on-gopro?p=deep-bayesian-video-frame-interpolation)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-bayesian-video-frame-interpolation/video-frame-interpolation-on-x4k1000fps)](https://paperswithcode.com/sota/video-frame-interpolation-on-x4k1000fps?p=deep-bayesian-video-frame-interpolation)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-bayesian-video-frame-interpolation/video-frame-interpolation-on-davis)](https://paperswithcode.com/sota/video-frame-interpolation-on-davis?p=deep-bayesian-video-frame-interpolation)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-bayesian-video-frame-interpolation/video-frame-interpolation-on-snu-film-easy)](https://paperswithcode.com/sota/video-frame-interpolation-on-snu-film-easy?p=deep-bayesian-video-frame-interpolation)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-bayesian-video-frame-interpolation/video-frame-interpolation-on-snu-film-medium)](https://paperswithcode.com/sota/video-frame-interpolation-on-snu-film-medium?p=deep-bayesian-video-frame-interpolation)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-bayesian-video-frame-interpolation/video-frame-interpolation-on-snu-film-hard)](https://paperswithcode.com/sota/video-frame-interpolation-on-snu-film-hard?p=deep-bayesian-video-frame-interpolation)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-bayesian-video-frame-interpolation/video-frame-interpolation-on-snu-film-extreme)](https://paperswithcode.com/sota/video-frame-interpolation-on-snu-film-extreme?p=deep-bayesian-video-frame-interpolation)
+
 ## 1. Requirements
 
 1) cuda 9.0, cudnn7.6.5
